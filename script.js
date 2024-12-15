@@ -1,11 +1,12 @@
 // main variables
 let waffles = 0;
+let power = 1;
 
 // waffle gain function
-document.getElementById("waffleMain").onclick = function () {
-  waffles += 1;
+document.getElementById("Wafflemain").onclick = function clickWaffle() {
+  waffles += power;
   console.log(waffles);
-  document.getElementById("waffleCount").textContent = waffles;
+  document.getElementById("Wafflecount").textContent = waffles;
 };
 
 /* 
